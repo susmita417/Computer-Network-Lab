@@ -13,7 +13,7 @@ struct student_info{
 };
 
 void print_call_by_value(struct student_info s){
-    printf("call by value");
+    printf("Call by value");
     printf("Roll: %d\n",s.roll_no);
     printf("Name: ");
     puts(s.name);
@@ -21,7 +21,7 @@ void print_call_by_value(struct student_info s){
     printf("\nAge: %d",s.age.age_present);
 }
 void print_call_by_reference(struct student_info * s){
-    printf("call by reference");
+    printf("Call by reference");
     printf("Roll: %d\n",s->roll_no);
     printf("Name: ");
     puts(s->name);
